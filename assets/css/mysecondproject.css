@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
+* {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+}
+
+body {
+    font-family: 'Literata', serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+header {
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    color: antiquewhite;
+    padding: 15px;
+    background: violet;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 16.66%;
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 5px;
+    margin-right: 4%;
+    padding: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px;
+    background: blue;
+}
+
+nav li:hover {
+    background: white;
+}
+
+section {
+    float: left;
+    width: 58.33%;
+}
+
+section i {
+    float: left;
+    color: blueviolet;
+    margin-right: 5%;
+}
+
+aside {
+    float: left;
+    padding: 15px;
+    width: 25%;
+    background: palevioletred;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(208, 255, 0);
+    color: black;
+    text-align: center;
+}
